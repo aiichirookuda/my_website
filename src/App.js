@@ -1,11 +1,7 @@
-import { Logo } from './components/atoms/Logo/Logo';
+import { Top } from './components/Pages/Top/Top';
 
 function App() {
-  return (
-    <>
-      <Logo />
-    </>
-  );
+  return <Top />;
 }
 
 export default App;

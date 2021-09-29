@@ -1,0 +1,16 @@
+.Skills {
+  > p {
+    font-weight: bold;
+    margin: 0 0 10px 10px;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 200px 200px;
+
+    li {
+      margin: 0 10px 10px;
+    }
+  }
+}

@@ -1,7 +1,7 @@
-import { Top } from './components/Pages/Top/Top';
+import { About } from './components/Pages/About/About';
 
 function App() {
-  return <Top />;
+  return <About />;
 }
 
 export default App;

@@ -1,0 +1,33 @@
+.Header {
+  width: 100vw;
+  padding-bottom: 30px;
+  background: linear-gradient(rgb(220, 220, 220), transparent);
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px;
+
+    span {
+      color: red;
+    }
+  }
+
+  nav {
+    margin-left: 20px;
+
+    ul {
+      display: flex;
+
+      a {
+        display: block;
+        padding: 10px;
+      }
+    }
+  }
+}

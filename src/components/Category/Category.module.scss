@@ -1,0 +1,15 @@
+.Category {
+  .TabList {
+    display: flex;
+    margin-left: 20px;
+
+    .Tab {
+      padding: 10px 30px;
+      width: 200px;
+      margin-right: 5px;
+      border-radius: 10px 10px 0 0;
+      background-color: #87cfeb2a;
+      cursor: pointer;
+    }
+  }
+}

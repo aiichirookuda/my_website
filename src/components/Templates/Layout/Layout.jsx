@@ -1,7 +1,6 @@
 import React from 'react';
-import { Header } from '../../Organisms/Header/Header';
-import { Main } from '../Main/Main';
-import { Footer } from '../../Organisms/Footer/Footer';
+import { Header } from '../../Header/Header';
+import { Footer } from '../../Footer/Footer';
 
 import Style from './Layout.module.scss';
 
@@ -9,9 +8,7 @@ export const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div className={Style.Wrapper}>
-        <Main>{children}</Main>
-      </div>
+      <main className={Style.Main}>{children}</main>
       <Footer />
     </>
   );

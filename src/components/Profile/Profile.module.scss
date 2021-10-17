@@ -1,0 +1,22 @@
+.Profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+
+  figure img {
+    height: 200px;
+    border-radius: 10000px;
+  }
+
+  dl {
+    dd {
+      margin-bottom: 16px;
+    }
+  }
+
+  p {
+    width: 450px;
+    line-height: 2;
+  }
+}

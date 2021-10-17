@@ -1,0 +1,17 @@
+.MainVisual {
+  width: 100%;
+  text-align: center;
+
+  img {
+    width: 80%;
+    border-radius: 50px;
+  }
+
+  figcaption {
+    h1 {
+      font-weight: bold;
+      padding: 50px;
+      font-size: 1.5rem;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.Footer {
+  width: 100vw;
+  background: linear-gradient(transparent, rgb(220, 220, 220));
+  text-align: center;
+  padding-top: 60px;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+
+  p {
+    font-size: 0.8em;
+  }
+}

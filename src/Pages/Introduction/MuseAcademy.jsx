@@ -22,7 +22,7 @@ export const MuseAcademy = ({ topImage, title }) => {
           </p>
         </section>
 
-        <section class={Style.general}>
+        <section className={Style.general}>
           <h3>制作の経緯</h3>
           <p>
             上記記載の、オンライン生配信イベント「できるかもデザイン」の作成課題にて作成。

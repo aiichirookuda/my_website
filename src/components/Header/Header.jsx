@@ -7,15 +7,20 @@ export const Header = () => {
   return (
     <header className={Style.Header}>
       <h1>
-        Aiichiro<span>.</span>works<span>.</span>github<span>.</span>io
+        Aiichiro
+        <span>
+          .<br />
+        </span>
+        works
+        <span>
+          .<br />
+        </span>
+        github<span>.</span>io
       </h1>
       <nav>
         <ul>
           <li>
-            <Link to="/">TOP</Link>
-          </li>
-          <li>
-            <Link to="/about">ABOUT</Link>
+            <Link to="/">ABOUT</Link>
           </li>
           <li>
             <Link to="/works">WORKS</Link>

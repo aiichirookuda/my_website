@@ -1,14 +1,11 @@
+import lizarran from '../img/logo_lizarran.png';
+import { Lizarran } from '../Pages/Introduction/Lizarran';
+
 export const logo = [
   {
-    title: 'EMOVE',
-    image:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-    url: '/',
-  },
-  {
-    title: 'BONE VOYAGE',
-    image:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-    url: '/',
+    title: 'LIZARRAN',
+    image: lizarran,
+    path: '/lizarran',
+    children: <Lizarran topImage={lizarran} title="LIZARRAN" />,
   },
 ];

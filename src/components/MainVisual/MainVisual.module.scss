@@ -5,6 +5,10 @@
   img {
     width: 80%;
     border-radius: 50px;
+
+    @media screen and (max-width: 768px) {
+      border-radius: 15px;
+    }
   }
 
   figcaption {
@@ -12,6 +16,10 @@
       font-weight: bold;
       padding: 50px;
       font-size: 1.5rem;
+
+      @media screen and (max-width: 768px) {
+        padding: 20px;
+      }
     }
   }
 }

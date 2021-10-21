@@ -15,7 +15,7 @@ export const Profile = () => {
         <img src={photo} alt="プロフィール画像" />
       </figure>
 
-      <div>
+      <div className={Style.likes}>
         {profiles.map((profile, index) => {
           return (
             <dl key={index}>
@@ -26,7 +26,7 @@ export const Profile = () => {
         })}
       </div>
 
-      <div>
+      <div className={Style.desc}>
         <p>
           大学卒業後、アプリ開発会社で５年間営業と企画を担当。WEBサービスの素晴らしさを知り、「自分で作って世に出してみたい！」という思いでWEB制作の勉強をはじめました。
         </p>

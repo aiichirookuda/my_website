@@ -4,15 +4,29 @@
   background-color: skyblue;
   border-radius: 10px;
 
+  @media screen and (max-width: 768px) {
+    padding: 20px;
+  }
+
   ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+
     li {
       width: 33%;
       text-align: center;
       padding: 30px;
+
+      @media screen and (max-width: 768px) {
+        width: auto;
+        padding: 0;
+        margin-bottom: 30px;
+      }
 
       a {
         figure {

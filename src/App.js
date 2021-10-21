@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Top } from './Pages/Top/Top';
 import { About } from './Pages/About/About';
 import { Works } from './Pages/Works/Works';
 
 import { web } from './data/web';
+import { logo } from './data/logo';
 import { banner } from './data/banner';
 
 function App() {
@@ -11,9 +11,6 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/">
-          <Top />
-        </Route>
-        <Route path="/about">
           <About />
         </Route>
         <Route
@@ -30,6 +27,13 @@ function App() {
                   </Route>
                 );
               })}
+              {logo.map((i) => {
+                return (
+                  <Route key={i} path={`${url}${i.path}`}>
+                    {i.children}
+                  </Route>
+                );
+              })}
               {banner.map((i) => {
                 return (
                   <Route key={i} path={`${url}${i.path}`}>
@@ -37,6 +41,7 @@ function App() {
                   </Route>
                 );
               })}
+              {}
             </Switch>
           )}
         />

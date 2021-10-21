@@ -3,13 +3,22 @@
     display: flex;
     margin-left: 20px;
 
+    @media screen and (max-width: 768px) {
+      margin-left: 10px;
+    }
+
     .Tab {
       padding: 10px 30px;
       width: 200px;
       margin-right: 5px;
       border-radius: 10px 10px 0 0;
-      background-color: #87cfeb2a;
+      background-color: #87cfeb4f;
       cursor: pointer;
+
+      @media screen and (max-width: 768px) {
+        width: 100px;
+        padding: 10px 15px;
+      }
     }
   }
 }

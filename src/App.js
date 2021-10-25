@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { About } from './Pages/About/About';
 import { Works } from './Pages/Works/Works';
+import { MouseStalker } from './components/MouseStalker/MouseStalker';
 
 import { web } from './data/web';
 import { logo } from './data/logo';
@@ -46,6 +47,7 @@ function App() {
           )}
         />
       </Switch>
+      <MouseStalker />
     </BrowserRouter>
   );
 }

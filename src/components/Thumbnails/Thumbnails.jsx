@@ -11,7 +11,7 @@ export const Thumbnails = ({ category }) => {
           return (
             <li key={index}>
               <Link to={`/works${obj.path}`}>
-                <figure>
+                <figure id={index}>
                   <img src={obj.image} alt={obj.title} />
                   <figcaption className={Style.title}>{obj.title}</figcaption>
                 </figure>
